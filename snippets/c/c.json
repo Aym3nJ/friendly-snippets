@@ -40,8 +40,11 @@
     "main() template": {
         "prefix": "main",
         "body": [
+            "#define EXIT_SUCCESS 0",
+            "",
             "int main(int argc, char *argv[])",
-            "{$0",
+            "{",
+            "\t$0",
             "",
             "\treturn EXIT_SUCCESS;",
             "}"
