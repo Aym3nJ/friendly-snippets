@@ -75,7 +75,7 @@
         "description": "Code snippet for enum class (c++11)"
     },
     "class": {
-        "prefix": "class",
+        "prefix": "classf",
         "body": [
             "class ${1:MyClass} {",
             "public:",
@@ -99,7 +99,7 @@
         "description": "Code snippet for class"
     },
     "eclass": {
-        "prefix": "eclass",
+        "prefix": "class",
         "body": [
             "class ${1:MyClass} {",
             "public:",
